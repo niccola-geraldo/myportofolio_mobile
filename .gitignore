@@ -4,6 +4,8 @@
 *.log
 *.pyc
 *.swp
+.idea/
+*.iml
 .buildlog/
 .history
 
@@ -117,3 +119,6 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# Aplikasi Flutter menyimpan versi dependensi agar build konsisten.
+!/pubspec.lock
